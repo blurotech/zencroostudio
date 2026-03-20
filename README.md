@@ -146,6 +146,13 @@ void loop() {
   delay(1000); // Recommended interval
 }
 ```
+
+**Console View Output:**
+```text
+24.50,60.20
+24.50,60.20
+24.60,60.30
+```
 *In Zencroo Studio: Define `Data Point 1` as Temperature and `Data Point 2` as Humidity.*
 
 ### 2. Analog Input (e.g. Potentiometer)
@@ -159,6 +166,13 @@ void loop() {
 
   delay(100); // Fast interval for responsive dial visualization
 }
+```
+
+**Console View Output:**
+```text
+512
+514
+513
 ```
 *In Zencroo Studio: Define `Data Point 1` as Knob Value (Integer), perhaps displaying on a Gauge Widget.*
 
@@ -180,6 +194,13 @@ void loop() {
   
   delay(100); 
 }
+```
+
+**Console View Output:**
+```text
+0.12,0.98,9.81
+0.14,0.96,9.85
+0.11,0.99,9.80
 ```
 *In Zencroo Studio: Set up your DataStream to track three separate variables (`Data Point 1`, `Data Point 2`, `Data Point 3`) and monitor them via an OSC Graph Widget.*
 
