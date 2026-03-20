@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="dist/ast/zenlogo.svg" alt="Zencroo Studio Logo" width="150" />
+  <img src="dist/ast/zencroo_studio_ban.png" alt="Zencroo Studio Logo" width="150" />
 </p>
 
 # Zencroo Studio
