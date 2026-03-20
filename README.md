@@ -1,7 +1,6 @@
 <p align="center">
   <img src="dist/ast/zencroo_studio_ban.png" alt="Zencroo Studio Logo" width="1080" />
 </p>
-
 # Zencroo Studio
 
 > **Release Version Note: V 1.0.0**
@@ -123,26 +122,62 @@ You can manually send payloads and instructions back to the connected microcontr
 <a id="sample-integration-arduino"></a>
 ## 💻 Sample Integration: Arduino
 
-To successfully send sensor data to Zencroo Studio, format your serial output so that the DataStream parser can correctly detect variables. Typically, separating variables with a comma or another delimiter works efficiently.
+To successfully send sensor data to Zencroo Studio, format your serial output so that the DataStream parser can correctly detect variables. Separating variables with a comma or another delimiter works efficiently. 
 
-Here is an example structure of what the `void loop()` print section might look like using the standard Arduino IDE:
+Below are code examples of what the `void loop()` print section looks like for various hardware sensors:
 
+### 1. Temperature & Humidity (e.g. DHT11/DHT22)
+Sends two numeric values per cycle.
 ```cpp
 void loop() {
-  // Read Temperature and Humidity from your sensor
   float temperature = dht.readTemperature();
   float humidity = dht.readHumidity();
 
-  // Print raw data structure directly to the serial port
+  // Print raw data directly to the serial port
   // Example output: 24.50,60.20
   Serial.print(temperature);
   Serial.print(",");
   Serial.println(humidity);
 
-  delay(1000); // 1-second interval to prevent buffer overflow
+  delay(1000); // Recommended interval
 }
 ```
-*In Zencroo Studio, you would then set up your DataStream to detect the two variables (Data Point 1 -> Temperature, Data Point 2 -> Humidity).*
+*In Zencroo Studio: Define `Data Point 1` as Temperature and `Data Point 2` as Humidity.*
+
+### 2. Analog Input (e.g. Potentiometer)
+Sends a single raw integer parameter.
+```cpp
+void loop() {
+  int knobValue = analogRead(A0);
+
+  // Example output: 512
+  Serial.println(knobValue);
+
+  delay(100); // Fast interval for responsive dial visualization
+}
+```
+*In Zencroo Studio: Define `Data Point 1` as Knob Value (Integer), perhaps displaying on a Gauge Widget.*
+
+### 3. Spatial IMU / Accelerometer (e.g. MPU6050)
+Sends three parameters mapping X, Y, and Z motion.
+```cpp
+void loop() {
+  // After reading the acceleration values...
+  float accelX = mpu.getAccelerationX();
+  float accelY = mpu.getAccelerationY();
+  float accelZ = mpu.getAccelerationZ();
+
+  // Example output: 0.12,0.98,9.81
+  Serial.print(accelX);
+  Serial.print(",");
+  Serial.print(accelY);
+  Serial.print(",");
+  Serial.println(accelZ);
+  
+  delay(100); 
+}
+```
+*In Zencroo Studio: Set up your DataStream to track three separate variables (`Data Point 1`, `Data Point 2`, `Data Point 3`) and monitor them via an OSC Graph Widget.*
 
 ---
 
