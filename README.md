@@ -2,62 +2,111 @@
 
 **Offline Hardware Data Monitoring & Visualization Tool**
 
-Zencroo Studio is a powerful, offline software solution designed for engineers, developers, and makers. It provides an intuitive environment to monitor, log, and visualize real-time hardware data through serial communication. With its customizable dashboard, flexible datastream configurations, and rich set of widgets, Zencroo Studio simplifies debugging and data analysis for embedded systems, microcontrollers, and IoT devices.
+Zencroo Studio is a robust, offline software solution designed for engineers, developers, and makers. It provides an intuitive environment to monitor, log, and visualize real-time hardware data through serial communication. With its customizable dashboard, flexible datastream configurations, and rich set of widgets, Zencroo Studio simplifies debugging and data analysis for embedded systems, microcontrollers, and IoT devices.
 
-## 🚀 Key Features
-
-### 🔌 Seamless Serial Communication
-*   **Quick Connection**: Easily select available COM ports and standard baud rates (ranging from 300 to 230400).
-*   **Smart Detection**: Utilize "Auto Detect Device" and "Rescan COM Ports" to connect to your hardware effortlessly.
-*   **Device Management**: Connect, disconnect, and reset devices directly from the application.
-
-### 📊 Fully Customizable Dashboard
-*   **Drag & Drop Widgets**: Build your ideal interface using an array of built-in widgets:
-    *   Line Graphs & OSC Graphs
-    *   Switches & LED Indicators
-    *   Vertical/Horizontal Bars & Gauges
-    *   Temperature Gauges & Character Displays
-*   **Layout Controls**: Show grid, snap to grid, and lock the dashboard layout to prevent accidental changes.
-*   **Project Management**: Save and load your dashboard configurations as projects for seamless workflow continuity.
-
-### 📡 Flexible DataStream Parsing
-*   **Dynamic Data Points**: Extract specific data points from incoming serial streams.
-*   **Variable Data Types**: Map data as Integers, Doubles, or Strings. Configure minimum/maximum boundaries and default values.
-*   **Comprehensive Units**: Assign rich scientific and engineering units out-of-the-box (e.g., Temperature, Voltage, Current, Frequency, Pressure, Acceleration, Decibels, and more).
-
-### 🖥️ Integrated Console & Command Center
-*   **Live Console View**: Monitor raw incoming serial data with features to pause, clear, and copy the stream.
-*   **Send Commands**: Send structured serial commands to your hardware. Support for various line endings (None, CR, LF, CRLF) and recent command macros.
-
-### 📁 Logging & Exporting
-*   **Data Logging**: Start and stop data logging at any time during your session.
-*   **CSV Export**: Export recorded logs as CSV files for robust offline post-analysis.
-
-### 📈 Live Status & Metrics
-*   **Real-time Metrics**: Monitor your connection quality with live counters for Data Rate (bps), Processed Packets, Session Uptime, and Errors.
-*   **System Views**: Switch between multiple optimized views (Welcome, Console, Dashboard, and Mixed Views) to suit your debugging state.
-
-## 🛠️ Usage Quick Reference
-
-1.  **Launch**: Open Zencroo Studio to access the Welcome interface.
-2.  **Connect Hardware**: Use the left sidebar to select your COM Port and correct Baud Rate (default 9600), then click **Connect**.
-3.  **Define DataStreams**: Navigate to **Data** -> **DataStream** (`Ctrl+M`) to securely map incoming variables from your microcontroller so the Studio recognizes them.
-4.  **Add Widgets**: Open **Dashboard View** (`Ctrl+2`). Use the builder toolbar to add graphs, gauges, or indicators. Bind each widget to your configured DataStream.
-5.  **Log & Export**: Keep records of your session using **Tools** -> **Start Data Logging**. When done, export to CSV via **File** -> **Export CSV Log** for further plotting or archival.
-
-## ⚙️ Popular Keyboard Shortcuts
-
-*   `Ctrl + N`: New Dashboard
-*   `Ctrl + O`: Open Dashboard
-*   `Ctrl + S`: Save Dashboard
-*   `Ctrl + K`: Connect Device
-*   `Ctrl + Shift + K`: Disconnect Device
-*   `Ctrl + 1 / 2 / 3`: Switch between Console, Dashboard, and Mixed Views
-*   `Ctrl + M`: Open DataStream Setup
+## 📋 Table of Contents
+1. [Key Features](#🚀-key-features)
+2. [Interface Overview](#🖥️-interface-overview)
+3. [Quick Start Workflow](#⚡-quick-start-workflow)
+4. [Connecting Your Device](#🔌-connecting-your-device)
+5. [Configuring DataStreams](#📡-configuring-datastreams)
+6. [Building Your Dashboard](#📊-building-your-dashboard)
+7. [Data Logging and Export](#📁-data-logging-and-export)
+8. [Sending Commands](#⌨️-sending-commands)
+9. [Sample Integration (Arduino)](#💻-sample-integration-arduino)
+10. [Keyboard Shortcuts](#⚙️-keyboard-shortcuts)
 
 ---
 
-## 💻 Sample Integration: Arduino (Temperature & Humidity)
+## 🚀 Key Features
+*   **Seamless Serial Communication**: Quick connection, smart detection, and device management directly from the app (up to 230400 baud rates).
+*   **Fully Customizable Dashboard**: Drag & drop widgets (Graphs, Switches, Indicators, Gauges), layout controls, and project management.
+*   **Flexible DataStream Parsing**: Dynamic data points mapped dynamically to Integers, Doubles, or Strings with comprehensive unit settings.
+*   **Integrated Console**: Monitor raw serial data, pause, copy, and send custom payloads with various line endings and macro support.
+*   **Logging & Exporting**: Cache session data seamlessly and securely export as robust CSV files.
+*   **Live Status Metrics**: Real-time packet parsing, data rates, uptime, and error monitoring.
+
+---
+
+## 🖥️ Interface Overview
+Zencroo Studio brings all essential metrics to one integrated view. The interface is broken down into four key zones:
+* **Top Navigation Bar**: Access comprehensive menus (File, Device, View, Dashboard, Data, Tools, Window, Help).
+* **Left Sidebar**: Manage COM port selection, Baud rates, serial options (Auto Scroll, Timestamps), and view Device Info.
+* **Right Sidebar**: Monitor real-time status (Data Rate, Packets, Uptime, Errors), live Console feed, and Send Commands.
+* **Main Center Workspace**: Toggle between the Welcome Screen, Console Viewer, Dashboard Layout Editor, and Mixed Views using the **View** menu.
+
+---
+
+## ⚡ Quick Start Workflow
+For a complete start-to-finish process of setting up a new project in Zencroo Studio, follow this chronological workflow:
+
+1. **Create Project**: From the Welcome Screen, select **New Project...** to start fresh, or navigate to **File** -> **New Dashboard** (`Ctrl+N`).
+2. **Connect Device**: In the Left Sidebar, select your hardware's COM Port, choose the matching Baud Rate, and click **Connect**.
+3. **Data Configuration (DataStream)**: Press `Ctrl+M` (or **Data** -> **DataStream**) to interpret your incoming serial structure. Create new streams and assign Names, Data Points (Pins), Types, and Units to your raw serial values.
+4. **Build the Dashboard**: Switch to Dashboard View (`Ctrl+2`), click **Widgets** from the top build toolbar, and drop your desired elements (Graphs, Gauges, etc.) onto the canvas. Open their settings to bind them to the DataStreams you just configured.
+5. **Run & Monitor**: With the device connected and your dashboard built, your interface will immediately visualize live data. You can toggle off **Show Grid** (`Ctrl+G`) and **Lock Layout** (`Ctrl+L`) to prevent accidental edits while monitoring.
+6. **Save Project**: Save your active dashboard setup by hitting `Ctrl+S` (or **Dashboard** -> **Save Dashboard**) to easily access it again in the future.
+
+---
+
+## 🔌 Connecting Your Device
+To start communicating with your hardware:
+1. Under the **COM PORT** section in the left sidebar, click the **Refresh** (↻) button to scan for connected devices.
+2. Select your device from the Dropdown list.
+3. Choose the appropriate **BAUD RATE** that matches your microcontroller's logic (e.g., `9600`, `115200`).
+4. Click the **Connect** button (or `Ctrl+K`). 
+5. The status indicator will turn green and say "Connected" if the port is opened successfully. Live metrics will begin updating in the Right Sidebar panel.
+
+---
+
+## 📡 Configuring DataStreams
+DataStreams tell Zencroo Studio how to interpret the raw serial data coming from your device.
+
+**Data Preparation on your Device:**
+Your microcontroller should group sensor variables and print them on the exact same line, separated by a delimiter (like a comma). For example:
+> `Serial.print(temperature); Serial.print(","); Serial.println(humidity);`
+This results in two "Data Points" appearing per single line: `24.50,60.20`
+
+**Mapping in Zencroo Studio:**
+1. Navigate to **Data** -> **DataStream** (or press `Ctrl+M`).
+2. Click **+ New Datastream**.
+3. Set your **NAME** (e.g., `Room Temp`) and **ALIAS** (e.g., `Temp`). Pick a customized **Color**.
+4. Assign the **DATA POINT (PIN)**. For the example `24.50,60.20`, Data Point 1 is Temperature and Data Point 2 is Humidity.
+5. Select the **DATA TYPE** (Double for digits with decimals) and desired **UNITS** (e.g., `°C`).
+6. Enter expected MIN and MAX scales. Click **Create** to save.
+
+---
+
+## 📊 Building Your Dashboard
+Once your DataStreams are mapped, you can visualize them seamlessly.
+1. Switch to the Dashboard View (`Ctrl+2` or via the **View** Menu).
+2. Click on **Widgets** in the top build toolbar.
+3. Drag and drop any widget into the Dashboard Canvas (Line Graphs, LED Indicators, Gauges, Data Characters, etc.).
+4. **Bind the Widget**: Open the widget settings by interacting with it on the canvas. Bind the widget to the specific **DataStream** you created.
+5. Customize the layout by resizing or dragging elements around the grid spacing.
+6. When finished, hit **LOCK** to lock the layout from accidental edits, or save it as a project (`Ctrl+S`).
+
+---
+
+## 📁 Data Logging and Export
+Keep long-term records of sensory inputs or debugging tracks:
+1. From the main menu, go to **Tools** -> **Start Data Logging** (or `Ctrl+Alt+R`).
+2. A recording indicator will activate, showing that your session data is being cached securely.
+3. Once completed, select **Tools** -> **Stop Data Logging** (`Ctrl+Alt+Q`).
+4. To view the data externally (in spreadsheet software or text programs), navigate to **File** -> **Export CSV Log** (`Ctrl+E`).
+
+---
+
+## ⌨️ Sending Commands
+You can manually send payloads and instructions back to the connected microcontroller:
+1. At the bottom Right Sidebar, locate the **SEND COMMAND** input box.
+2. Type in your string payload.
+3. If specific endings are needed, configure the Line Ending settings (CR, LF, CRLF) located in the expanded command menu.
+4. Click **SEND**. You can also re-use **Recent Macros** that automatically save as you type them.
+
+---
+
+## 💻 Sample Integration: Arduino
 
 To successfully send sensor data to Zencroo Studio, format your serial output so that the DataStream parser can correctly detect variables. Typically, separating variables with a comma or another delimiter works efficiently.
 
@@ -78,8 +127,19 @@ void loop() {
   delay(1000); // 1-second interval to prevent buffer overflow
 }
 ```
+*In Zencroo Studio, you would then set up your DataStream to detect the two variables (Data Point 1 -> Temperature, Data Point 2 -> Humidity).*
 
-*In Zencroo Studio, you would then set up your DataStream to detect the two variables (e.g., Data Point 1 -> Temperature, Data Point 2 -> Humidity).*
+---
+
+## ⚙️ Keyboard Shortcuts
+
+*   `Ctrl + N`: New Dashboard
+*   `Ctrl + O`: Open Dashboard
+*   `Ctrl + S`: Save Dashboard
+*   `Ctrl + K`: Connect Device
+*   `Ctrl + Shift + K`: Disconnect Device
+*   `Ctrl + 1 / 2 / 3`: Switch between Console, Dashboard, and Mixed Views
+*   `Ctrl + M`: Open DataStream Setup
 
 ---
 
