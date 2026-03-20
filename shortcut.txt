@@ -1,0 +1,34 @@
+|----------------------|------------------------------------|-----------------|
+| Shortcut             | Action                             | Menu Category   |
+|----------------------|------------------------------------|-----------------|
+| Ctrl + N             | New Dashboard                      | File            |
+| Ctrl + O             | Open Dashboard                     | File            |
+| Ctrl + Alt + L       | Open Log                           | File            |
+| Ctrl + E             | Export CSV Log                     | File            |
+| Alt + F4             | Exit Application                   | File            |
+| Ctrl + D             | Auto Detect Device                 | Device          |
+| Ctrl + R             | Rescan COM Ports                   | Device          |
+| Ctrl + K             | Connect Device                     | Device          |
+| Ctrl + Shift + K     | Disconnect Device                  | Device          |
+| Ctrl + Shift + R     | Reset Device                       | Device          |
+| Ctrl + 1             | Console View                       | View            |
+| Ctrl + 2             | Dashboard View                     | View            |
+| Ctrl + 3             | Mixed View                         | View            |
+| Ctrl + G             | Toggle Show Grid                   | View            |
+| Ctrl + Shift + G     | Toggle Snap to Grid                | View            |
+| F11                  | Full Screen                        | View            |
+| Ctrl + Shift + E     | Edit Dashboard                     | Dashboard       |
+| Ctrl + S             | Save Dashboard                     | Dashboard       |
+| Ctrl + Shift + S     | Save Dashboard As...               | Dashboard       |
+| Ctrl + Shift + X     | Clear Dashboard                    | Dashboard       |
+| Ctrl + L             | Lock Dashboard Layout              | Dashboard       |
+| Ctrl + Shift + L     | See Live Data                      | Data            |
+| Ctrl + Shift + P     | View Data Points                   | Data            |
+| Ctrl + M             | DataStream Setup                   | Data            |
+| Ctrl + Alt + R       | Start Data Logging                 | Tools           |
+| Ctrl + Alt + Q       | Stop Data Logging                  | Tools           |
+| Ctrl + Alt + C       | Clear Screen                       | Tools / Data    |
+| F1                   | Welcome Screen                     | Help            |
+| Shift + F1           | Quick Start Guide                  | Help            |
+| Ctrl + /             | Show all commands                  | Help            |
+|----------------------|------------------------------------|-----------------|
