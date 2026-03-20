@@ -1,0 +1,62 @@
+================================================================================
+                         ZENCROO STUDIO V 1.0.0
+                      SOFTWARE INSTALLATION MANUAL
+================================================================================
+
+This document provides step-by-step instructions for installing Zencroo Studio 
+on your Windows system.
+
+--------------------------------------------------------------------------------
+1. SYSTEM REQUIREMENTS
+--------------------------------------------------------------------------------
+   * Operating System : Windows 10 / Windows 11 (64-bit recommended)
+   * Storage          : Minimum 200 MB of free disk space
+   * Hardware         : Standard USB Ports (for hardware serial communication)
+
+--------------------------------------------------------------------------------
+2. DOWNLOADING THE SOFTWARE
+--------------------------------------------------------------------------------
+   * Locate the provided installation package: "Zencroo_Studio_v1.0.0_setup.exe"
+     or the equivalent ".msi" installer provided by Bluro Technology Solutions.
+
+--------------------------------------------------------------------------------
+3. INSTALLATION PROCESS
+--------------------------------------------------------------------------------
+   STEP 1 : Double-click the installer file to begin the setup wizard.
+   
+   STEP 2 : (Optional) If Windows SmartScreen displays a "Windows protected your 
+            PC" prompt, click on "More info" -> "Run anyway".
+            
+   STEP 3 : Follow the on-screen instructions in the setup wizard.
+   
+   STEP 4 : Choose your preferred installation directory (or leave the default 
+            "Program Files" path).
+            
+   STEP 5 : Click "Install" and wait for the extraction and setup process to 
+            complete.
+            
+   STEP 6 : Once completed, check the box to "Create Desktop Shortcut" (if 
+            available) and click "Finish".
+
+--------------------------------------------------------------------------------
+4. PERIPHERAL DRIVERS (COM PORTS)
+--------------------------------------------------------------------------------
+   Zencroo Studio communicates with hardware via Serial (COM) ports.
+   * If you are plugging in a custom microcontroller (e.g., Arduino, ESP32) for 
+     the first time, ensure the correct USB-to-Serial drivers are installed on 
+     your system (such as CH340, CP2102, or FTDI drivers).
+   * Windows 10/11 usually auto-installs these, but manual installation may be 
+     required if your hardware is not appearing in the Studio's port list.
+
+--------------------------------------------------------------------------------
+5. LAUNCHING THE APPLICATION
+--------------------------------------------------------------------------------
+   * Locate the "Zencroo Studio" shortcut on your Desktop or in the Start Menu.
+   * Double-click to launch the software.
+   * Connect your hardware, navigate to the Left Sidebar, select your COM Port 
+     and Baud Rate, and click "Connect".
+
+================================================================================
+For further assistance, refer to the fully integrated Help menus inside the app 
+or the README.md documentation file.
+================================================================================
