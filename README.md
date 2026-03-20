@@ -1,4 +1,10 @@
+<p align="center">
+  <img src="../dist/ast/zenlogo.svg" alt="Zencroo Studio Logo" width="150" />
+</p>
+
 # Zencroo Studio
+
+> **Release Version Note: V 1.0.0**
 
 **Offline Hardware Data Monitoring & Visualization Tool**
 
@@ -140,6 +146,20 @@ void loop() {
 *   `Ctrl + Shift + K`: Disconnect Device
 *   `Ctrl + 1 / 2 / 3`: Switch between Console, Dashboard, and Mixed Views
 *   `Ctrl + M`: Open DataStream Setup
+
+---
+
+## 🐛 Bug Reports & Technical Discussions
+
+*   **Issues & Enhancements**: To report a bug in Zencroo Studio or to request a simple enhancement, go to our GitHub Issues.
+*   **Complex Requests**: More complex requests and technical discussions should be directed to the Blurotech support channel instead of generic issues.
+*   **Modifications**: If you're interested in modifying or extending the software, we strongly suggest discussing your ideas with us via email before starting to work on them. That way you can coordinate with the Zencroo Team and others, giving your work a higher chance of being safely integrated into the official release.
+
+## 🛡️ Security
+
+If you think you found a vulnerability or other security-related bug in this project, please systematically read our security policy and report the bug to our Security Team 🛡️. Thank you for making Zencroo Studio safe!
+
+**E-mail contact:** [blurotech.in@gmail.com](mailto:blurotech.in@gmail.com)
 
 ---
 
