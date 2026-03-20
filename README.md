@@ -11,19 +11,20 @@
 Zencroo Studio is a robust, offline software solution designed for engineers, developers, and makers. It provides an intuitive environment to monitor, log, and visualize real-time hardware data through serial communication. With its customizable dashboard, flexible datastream configurations, and rich set of widgets, Zencroo Studio simplifies debugging and data analysis for embedded systems, microcontrollers, and IoT devices.
 
 ## 📋 Table of Contents
-1. [Key Features](#🚀-key-features)
-2. [Interface Overview](#🖥️-interface-overview)
-3. [Quick Start Workflow](#⚡-quick-start-workflow)
-4. [Connecting Your Device](#🔌-connecting-your-device)
-5. [Configuring DataStreams](#📡-configuring-datastreams)
-6. [Building Your Dashboard](#📊-building-your-dashboard)
-7. [Data Logging and Export](#📁-data-logging-and-export)
-8. [Sending Commands](#⌨️-sending-commands)
-9. [Sample Integration (Arduino)](#💻-sample-integration-arduino)
-10. [Keyboard Shortcuts](#⚙️-keyboard-shortcuts)
+1. [Key Features](#key-features)
+2. [Interface Overview](#interface-overview)
+3. [Quick Start Workflow](#quick-start-workflow)
+4. [Connecting Your Device](#connecting-your-device)
+5. [Configuring DataStreams](#configuring-datastreams)
+6. [Building Your Dashboard](#building-your-dashboard)
+7. [Data Logging and Export](#data-logging-and-export)
+8. [Sending Commands](#sending-commands)
+9. [Sample Integration (Arduino)](#sample-integration-arduino)
+10. [Keyboard Shortcuts](#keyboard-shortcuts)
 
 ---
 
+<a id="key-features"></a>
 ## 🚀 Key Features
 *   **Seamless Serial Communication**: Quick connection, smart detection, and device management directly from the app (up to 230400 baud rates).
 *   **Fully Customizable Dashboard**: Drag & drop widgets (Graphs, Switches, Indicators, Gauges), layout controls, and project management.
@@ -34,6 +35,7 @@ Zencroo Studio is a robust, offline software solution designed for engineers, de
 
 ---
 
+<a id="interface-overview"></a>
 ## 🖥️ Interface Overview
 Zencroo Studio brings all essential metrics to one integrated view. The interface is broken down into four key zones:
 * **Top Navigation Bar**: Access comprehensive menus (File, Device, View, Dashboard, Data, Tools, Window, Help).
@@ -43,6 +45,7 @@ Zencroo Studio brings all essential metrics to one integrated view. The interfac
 
 ---
 
+<a id="quick-start-workflow"></a>
 ## ⚡ Quick Start Workflow
 For a complete start-to-finish process of setting up a new project in Zencroo Studio, follow this chronological workflow:
 
@@ -55,6 +58,7 @@ For a complete start-to-finish process of setting up a new project in Zencroo St
 
 ---
 
+<a id="connecting-your-device"></a>
 ## 🔌 Connecting Your Device
 To start communicating with your hardware:
 1. Under the **COM PORT** section in the left sidebar, click the **Refresh** (↻) button to scan for connected devices.
@@ -65,6 +69,7 @@ To start communicating with your hardware:
 
 ---
 
+<a id="configuring-datastreams"></a>
 ## 📡 Configuring DataStreams
 DataStreams tell Zencroo Studio how to interpret the raw serial data coming from your device.
 
@@ -83,6 +88,7 @@ This results in two "Data Points" appearing per single line: `24.50,60.20`
 
 ---
 
+<a id="building-your-dashboard"></a>
 ## 📊 Building Your Dashboard
 Once your DataStreams are mapped, you can visualize them seamlessly.
 1. Switch to the Dashboard View (`Ctrl+2` or via the **View** Menu).
@@ -94,6 +100,7 @@ Once your DataStreams are mapped, you can visualize them seamlessly.
 
 ---
 
+<a id="data-logging-and-export"></a>
 ## 📁 Data Logging and Export
 Keep long-term records of sensory inputs or debugging tracks:
 1. From the main menu, go to **Tools** -> **Start Data Logging** (or `Ctrl+Alt+R`).
@@ -103,6 +110,7 @@ Keep long-term records of sensory inputs or debugging tracks:
 
 ---
 
+<a id="sending-commands"></a>
 ## ⌨️ Sending Commands
 You can manually send payloads and instructions back to the connected microcontroller:
 1. At the bottom Right Sidebar, locate the **SEND COMMAND** input box.
@@ -112,6 +120,7 @@ You can manually send payloads and instructions back to the connected microcontr
 
 ---
 
+<a id="sample-integration-arduino"></a>
 ## 💻 Sample Integration: Arduino
 
 To successfully send sensor data to Zencroo Studio, format your serial output so that the DataStream parser can correctly detect variables. Typically, separating variables with a comma or another delimiter works efficiently.
@@ -137,6 +146,7 @@ void loop() {
 
 ---
 
+<a id="keyboard-shortcuts"></a>
 ## ⚙️ Keyboard Shortcuts
 
 *   `Ctrl + N`: New Dashboard
