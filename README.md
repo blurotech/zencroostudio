@@ -122,7 +122,11 @@ You can manually send payloads and instructions back to the connected microcontr
 <a id="sample-integration-arduino"></a>
 ## 💻 Sample Integration: Arduino
 
-To successfully send sensor data to Zencroo Studio, format your serial output so that the DataStream parser can correctly detect variables. Separating variables with a comma or another delimiter works efficiently. 
+> [!IMPORTANT]
+> **HARDWARE OUTPUT DATA FORMAT**
+> To ensure the Zencroo Studio parser correctly registers your datastreams, your serial output MUST be structured as a single line containing all your parameters separated by a delimiter (like a comma `,`), and it MUST end with a newline character (`println` or `\n`).
+> 
+> **Correct Format Example:** `Data1,Data2,Data3\n`
 
 Below are code examples of what the `void loop()` print section looks like for various hardware sensors:
 
