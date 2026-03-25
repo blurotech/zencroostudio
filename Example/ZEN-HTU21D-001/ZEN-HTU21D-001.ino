@@ -1,65 +1,71 @@
 /*
- * Zencroo Studio Example: HTU21D Temperature & Humidity Sensor
- * 
- * This sketch demonstrates how to integrate the HTU21D sensor
- * with Zencroo Studio for real-time monitoring and visualization.
- * 
- * Hardware: HTU21D Temperature & Humidity Sensor
- * Communication: Serial (USB/UART)
- * Data Format: Temperature,Humidity (comma-separated)
- */
+============================================================
+Project Name   : HTU21D Temperature Monitor
+Product        : Zencroo Studio
+Software Ver   : v1.0.0
+Firmware ID    : ZEN-HTU21D-001
+Author         : Zencroo Team
+Company        : Bluro Technology Solutions
+Website        : https://www.blurotech.in
+Email          : mailto:blurotech.in@gmail.com
+update           : 24-03-2026
+============================================================
+
+Description:
+Reads temperature (°C) and humidity (%) from the 
+HTU21D sensor via I2C and prints data to Zencroo Studio.
+
+Output Format:
+Temperature, Humidity
+
+PPS (Packets Per Second):
+- Each loop output = 1 packet
+- PPS = Total Packets / Time (seconds)
+- With delay(100), expected PPS ≈ 10
+- Actual PPS ≈ 5 (sensor + I2C delay)
+
+Important Notes:
+- Use 3.3V for stable operation
+- Sensor response time limits speed (~5 PPS)
+- Some modules may be SI7021 (compatible)
+
+License:
+Provided for educational and development use only.
+
+Support:
+mailto:blurotech.in@gmail.com
+
+============================================================
+*/
 
 #include <Wire.h>
-#include "HTU21D.h"
+#include "Adafruit_HTU21DF.h"
 
-// Create HTU21D sensor object
-HTU21D myHTU21D(HTU21D_RES_RH12_T14);
+Adafruit_HTU21DF htu = Adafruit_HTU21DF();
 
 void setup() {
-  // Initialize serial communication at 115200 baud
   Serial.begin(115200);
-  delay(1000);
-  
-  // Initialize I2C communication
   Wire.begin();
-  
-  // Initialize HTU21D sensor
-  myHTU21D.begin();
-  
-  Serial.println("HTU21D Sensor Initialized");
-  delay(500);
+
+  Serial.println("HTU21D Test - ");
+
+  if (!htu.begin()) {
+    Serial.println("Sensor not found!");
+    while (1);
+  }
 }
 
 void loop() {
-  // Read temperature and humidity from sensor
-  float temperature = myHTU21D.readTemperature();
-  float humidity = myHTU21D.readHumidity();
-  
-  // Print raw data directly to the serial port
-  // Example output: 24.50,60.20
-  Serial.print(temperature);
-  Serial.print(",");
-  Serial.println(humidity);
-  
-  // Recommended interval for data collection
-  delay(1000);
-}
+  float tempC = htu.readTemperature();
+  float tempF = (tempC * 9.0 / 5.0) + 32.0;
 
-/*
- * ZENCROO STUDIO CONFIGURATION:
- * 
- * 1. Connect your Arduino with HTU21D to USB
- * 
- * 2. In Zencroo Studio:
- *    - Select appropriate COM Port and 115200 baud rate
- *    - Press Ctrl+M to open DataStream configuration
- *    - Create new DataStream with:
- *      Name: "Room Temp"
- *      Alias: "Temp"
- *      Data Point 1: Temperature (Type: Double, Unit: °C, Min: 0, Max: 50)
- *      Data Point 2: Humidity (Type: Double, Unit: %, Min: 0, Max: 100)
- * 
- * 3. Build dashboard with Gauge or Graph widgets
- * 
- * 4. Enjoy real-time monitoring!
- */
+  Serial.print(tempC);
+  Serial.print(", ");
+
+  Serial.print(tempF);
+  Serial.print(", ");
+
+  Serial.println(htu.readHumidity());
+
+  delay(100);
+}
