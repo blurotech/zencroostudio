@@ -1,0 +1,9 @@
+{
+    "name": "ZEN-MPU6050",
+    "widgets": [],
+    "datastreams": [],
+    "view": {
+        "showGrid": true,
+        "snap": true
+    }
+}
