@@ -7,8 +7,8 @@ Firmware ID    : ZEN-HTU21D-001
 Author         : Zencroo Team
 Company        : Bluro Technology Solutions
 Website        : https://www.blurotech.in
-Email          : mailto:blurotech.in@gmail.com
-update           : 24-03-2026
+Email          : blurotech.in@gmail.com
+update         : 24-03-2026
 ============================================================
 
 Description:
@@ -31,10 +31,6 @@ Important Notes:
 
 License:
 Provided for educational and development use only.
-
-Support:
-mailto:blurotech.in@gmail.com
-
 ============================================================
 */
 
@@ -59,12 +55,8 @@ void loop() {
   float tempC = htu.readTemperature();
   float tempF = (tempC * 9.0 / 5.0) + 32.0;
 
-  Serial.print(tempC);
-  Serial.print(", ");
-
-  Serial.print(tempF);
-  Serial.print(", ");
-
+  Serial.print(tempC); Serial.print(", ");
+  Serial.print(tempF); Serial.print(", ");
   Serial.println(htu.readHumidity());
 
   delay(100);
