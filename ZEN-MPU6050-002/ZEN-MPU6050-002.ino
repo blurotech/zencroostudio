@@ -7,7 +7,7 @@ Firmware ID    : ZEN-MPU6050-002
 Author         : Zencroo Team
 Company        : Bluro Technology Solutions
 Website        : https://www.blurotech.in
-Email          : mailto:blurotech.in@gmail.com
+Email          : blurotech.in@gmail.com
 Date           : 24-03-2026
 ============================================================
 
@@ -33,7 +33,7 @@ License:
 Provided for educational and development use only.
 
 Support:
-mailto:blurotech.in@gmail.com
+        blurotech.in@gmail.com
 
 ============================================================
 */
