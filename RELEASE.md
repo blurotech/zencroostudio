@@ -1,25 +1,31 @@
 # Release Notes
 
-All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+All notable user-facing changes and feature updates for Zencroo Studio will be documented in this file.
 
 ## [1.0.0] - 2026-04-19
-### Added
-- **Initial Stable Launch**: Full feature set enabled for offline hardware monitoring.
-- **Tauri 2.0 Integration**: Migration to the latest Tauri core for improved security and performance.
-- **Dynamic Widget Engine**: Support for Line Graphs, Gauges, Switches, and LED indicators.
-- **High-Precision Logging**: CSV export functionality with microsecond-level timestamping.
-- **Multi-Baud Support**: Reliable communication from 300 to 230400 baud.
-- **Sample Hardware Integration**: Ready-to-use Arduino firmware for HTU21D, MPU6050, and I2C Scanner.
+### ✨ Features & Updates
+- **Official Stable Launch**: Complete environment for real-time hardware monitoring and data visualization.
+- **Dynamic Widget Suite**: Added support for various monitoring elements including:
+  - **Line Graphs**: For real-time trend analysis.
+  - **Gauges & Bars**: For analog value visualization (Vertical/Horizontal/Circular).
+  - **Status Indicators**: LED and Switch widgets for boolean state monitoring.
+  - **Character Displays**: For high-visibility numeric readouts.
+- **Advanced DataStream Engine**: Create and map custom datastreams with unit support and automated scaling.
+- **High-Precision Data Logging**: Securely cache session data and export as robust CSV files for external analysis.
+- **Hardware Compatibility**: Optimized support for high-speed serial communication up to 230400 baud.
+- **Professional Workspaces**: Introduced Welcome, Console, Dashboard, and Mixed view modes for flexible workflows.
+- **Sample Projects**: Included ready-to-flash Arduino examples for MPU6050, HTU21D, and I2C scanning.
 
-### Changed
-- **UI Architecture**: Complete refresh of sidebar and toolbar icons for a more professional "Studio" look.
-- **Data Parsing**: Enhanced UTF-8 decoding for more robust handling of raw serial streams.
+### 🎨 UI & UX Improvements
+- **Studio Interface**: A complete high-end dark-mode theme with glassmorphism and modern typography.
+- **Layout Control**: Added Drag-and-Drop functionality with Smart Grid Snapping and Layout Locking.
+- **Integrated Console**: Enhanced serial monitor with auto-scroll, timestamping, and command macro support.
 
-### Fixed
-- Resolved handshake delays with Arduino Nano and Uno R3 devices.
-- Fixed floating-point rounding errors in the Gauge and Horizontal Bar widgets.
-- Corrected UI scaling behavior on high-DPI (4K) Windows displays.
-- Patched a critical crash occurring during port disconnection while active data streaming was in progress.
+### 🛠️ Bug Fixes
+- Improved connection reliability for older hardware like Arduino Nano and Uno.
+- Fixed display rounding issues in the Gauge and Bar widgets for high-precision decimal values.
+- Optimized UI layout for high-resolution (4K) monitors to prevent scaling artifacts.
+- Resolved an issue where data streaming could intermittently halt during manual port resets.
 
 ---
 **Bluro Technology Solutions**

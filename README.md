@@ -39,10 +39,10 @@ Zencroo Studio is a robust, offline software solution designed for engineers, de
 We are excited to launch the first stable version of Zencroo Studio. This version brings a complete, high-performance ecosystem for hardware monitoring and dashboarding.
 
 **Key Highlights of V1.0.0:**
-*   **Performance**: Threaded serial engine for zero-lag data ingestion.
-*   **Visuals**: Premium dark-mode dashboard with glassmorphism effects.
-*   **Reliability**: Handshake optimizations for Arduino and ESP32 ecosystems.
-*   **Precision**: High-resolution CSV logging with microsecond timestamps.
+*   **Performance**: Real-time, zero-lag data streaming for high-frequency sensors.
+*   **Visuals**: Premium dark-mode dashboard with advanced widget customization.
+*   **Reliability**: Enhanced stability for seamless hardware connection across all devices.
+*   **Precision**: High-resolution data logging and professional CSV export.
 
 For a full list of technical changes, bug fixes, and improvements, please interact with our documentation below:
 
