@@ -6,7 +6,7 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows" />
-  <a href="./RELEASE.md">
+  <a href="https://github.com/blurotech/Zencroo-Studio/releases">
     <img src="https://img.shields.io/badge/Release_Notes-0078D4?style=for-the-badge&logo=gitbook&logoColor=white" />
   </a>
   <a href="./installation_manual.txt">
@@ -30,7 +30,7 @@ Zencroo Studio is a robust, offline software solution designed for engineers, de
 9. [Sending Commands](#sending-commands)
 10. [Sample Integration (Arduino)](#sample-integration-arduino)
 11. [Keyboard Shortcuts](#keyboard-shortcuts)
-12. [Release Notes](./RELEASE.md)
+12. [Release Notes](https://github.com/blurotech/Zencroo-Studio/releases)
 
 ---
 
@@ -47,7 +47,7 @@ We are excited to launch the first stable version of Zencroo Studio. This versio
 For a full list of technical changes, bug fixes, and improvements, please interact with our documentation below:
 
 <p align="left">
-  <a href="./RELEASE.md">
+  <a href="https://github.com/blurotech/Zencroo-Studio/releases">
     <img src="https://img.shields.io/badge/Release_Notes-0078D4?style=for-the-badge&logo=gitbook&logoColor=white" />
   </a>
   <a href="./installation_manual.txt">
