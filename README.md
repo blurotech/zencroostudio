@@ -9,8 +9,8 @@
   <a href="https://github.com/blurotech/zencroostudio/releases">
     <img src="https://img.shields.io/badge/Release_Notes-0078D4?style=for-the-badge&logo=gitbook&logoColor=white" />
   </a>
-  <a href="./installation_manual.txt">
-    <img src="https://img.shields.io/badge/Installation_Manual-28a745?style=for-the-badge&logo=read-the-docs&logoColor=white" />
+  <a href="./INSTALLATION.md">
+    <img src="https://img.shields.io/badge/Installation_Guide-28a745?style=for-the-badge&logo=read-the-docs&logoColor=white" />
   </a>
 </p>
 
@@ -50,8 +50,8 @@ For a full list of technical changes, bug fixes, and improvements, please intera
   <a href="https://github.com/blurotech/zencroostudio/releases">
     <img src="https://img.shields.io/badge/Release_Notes-0078D4?style=for-the-badge&logo=gitbook&logoColor=white" />
   </a>
-  <a href="./installation_manual.txt">
-    <img src="https://img.shields.io/badge/Installation_Manual-28a745?style=for-the-badge&logo=read-the-docs&logoColor=white" />
+  <a href="./INSTALLATION.md">
+    <img src="https://img.shields.io/badge/Installation_Guide-28a745?style=for-the-badge&logo=read-the-docs&logoColor=white" />
   </a>
 </p>
 
