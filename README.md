@@ -3,23 +3,61 @@
 </p>
 # Zencroo Studio
 
-> **Release Version Note: V 1.0.0**
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Stable-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows" />
+</p>
+
+<p align="center">
+  <a href="./CHANGELOG.md">
+    <img src="https://img.shields.io/badge/View_Changelog-0078D4?style=for-the-badge&logo=gitbook&logoColor=white" />
+  </a>
+  <a href="./installation_manual.txt">
+    <img src="https://img.shields.io/badge/Installation_Manual-28a745?style=for-the-badge&logo=read-the-docs&logoColor=white" />
+  </a>
+</p>
 
 **Offline Hardware Data Monitoring & Visualization Tool**
 
 Zencroo Studio is a robust, offline software solution designed for engineers, developers, and makers. It provides an intuitive environment to monitor, log, and visualize real-time hardware data through serial communication. With its customizable dashboard, flexible datastream configurations, and rich set of widgets, Zencroo Studio simplifies debugging and data analysis for embedded systems, microcontrollers, and IoT devices.
 
 ## 📋 Table of Contents
-1. [Key Features](#key-features)
-2. [Interface Overview](#interface-overview)
-3. [Quick Start Workflow](#quick-start-workflow)
-4. [Connecting Your Device](#connecting-your-device)
-5. [Configuring DataStreams](#configuring-datastreams)
-6. [Building Your Dashboard](#building-your-dashboard)
-7. [Data Logging and Export](#data-logging-and-export)
-8. [Sending Commands](#sending-commands)
-9. [Sample Integration (Arduino)](#sample-integration-arduino)
-10. [Keyboard Shortcuts](#keyboard-shortcuts)
+1. [Latest Release](#latest-release)
+2. [Key Features](#key-features)
+3. [Interface Overview](#interface-overview)
+4. [Quick Start Workflow](#quick-start-workflow)
+5. [Connecting Your Device](#connecting-your-device)
+6. [Configuring DataStreams](#configuring-datastreams)
+7. [Building Your Dashboard](#building-your-dashboard)
+8. [Data Logging and Export](#data-logging-and-export)
+9. [Sending Commands](#sending-commands)
+10. [Sample Integration (Arduino)](#sample-integration-arduino)
+11. [Keyboard Shortcuts](#keyboard-shortcuts)
+12. [Changelog](./CHANGELOG.md)
+
+---
+
+<a id="latest-release"></a>
+## 📦 Latest Release: V1.0.0 (Stable)
+We are excited to launch the first stable version of Zencroo Studio. This version brings a complete, high-performance ecosystem for hardware monitoring and dashboarding.
+
+**Key Highlights of V1.0.0:**
+*   **Performance**: Threaded serial engine for zero-lag data ingestion.
+*   **Visuals**: Premium dark-mode dashboard with glassmorphism effects.
+*   **Reliability**: Handshake optimizations for Arduino and ESP32 ecosystems.
+*   **Precision**: High-resolution CSV logging with microsecond timestamps.
+
+For a full list of technical changes, bug fixes, and improvements, please interact with our documentation below:
+
+<p align="left">
+  <a href="./CHANGELOG.md">
+    <img src="https://img.shields.io/badge/View_Full_Changelog-0078D4?style=for-the-badge&logo=gitbook&logoColor=white" />
+  </a>
+  <a href="./installation_manual.txt">
+    <img src="https://img.shields.io/badge/Installation_Manual-28a745?style=for-the-badge&logo=read-the-docs&logoColor=white" />
+  </a>
+</p>
 
 ---
 
