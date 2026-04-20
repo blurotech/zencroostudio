@@ -12,6 +12,9 @@
   <a href="./INSTALLATION.md">
     <img src="https://img.shields.io/badge/Installation_Guide-28a745?style=for-the-badge&logo=read-the-docs&logoColor=white" />
   </a>
+  <a href="./SECURITY.md">
+    <img src="https://img.shields.io/badge/Security_Policy-dc3545?style=for-the-badge&logo=shield&logoColor=white" />
+  </a>
 </p>
 
 **Offline Hardware Data Monitoring & Visualization Tool**
@@ -64,11 +67,11 @@ Get started with Zencroo Studio by downloading the version that best suits your 
 
 <p align="left">
   <a href="https://www.blurotech.in/products.html">
-    <img src="https://img.shields.io/badge/Download-Standard_Setup-blue?style=for-the-badge&logo=windows&logoColor=white" />
+    <img src="https://img.shields.io/badge/%E2%AC%87_Download-Standard_Setup_%7C_.exe-blue?style=for-the-badge&logo=windows&logoColor=white" />
   </a>
   &nbsp;
   <a href="https://www.blurotech.in/products.html">
-    <img src="https://img.shields.io/badge/Download-Portable_Version-orange?style=for-the-badge&logo=archive&logoColor=white" />
+    <img src="https://img.shields.io/badge/%E2%AC%87_Download-Portable_Version_%7C_.zip-orange?style=for-the-badge&logo=files&logoColor=white" />
   </a>
 </p>
 
@@ -281,10 +284,18 @@ void loop() {
 
 ## 🛡️ Security
 
-If you think you found a vulnerability or other security-related bug in this project, please systematically read our security policy and report the bug to our Security Team 🛡️. Thank you for making Zencroo Studio safe!
+If you think you have found a vulnerability or other security-related bug in this project, please read our full security policy and report directly to our Security Team. **Do not open a public GitHub Issue for security reports.**
+
+<p align="left">
+  <a href="./SECURITY.md">
+    <img src="https://img.shields.io/badge/Read-Security_Policy-dc3545?style=for-the-badge&logo=shield&logoColor=white" />
+  </a>
+</p>
 
 **E-mail contact:** [blurotech.in@gmail.com](mailto:blurotech.in@gmail.com)
 
 ---
 
-*Zencroo Studio V 1.0.0 — Monitoring Evolved. Developed by Bluro Technology Solutions.*
+<p align="center">
+  <i>Zencroo Studio V 1.0.0 — Monitoring Evolved. Developed by Bluro Technology Solutions.</i>
+</p>
