@@ -1,6 +1,6 @@
 # 💿 Installation Guide — Zencroo Studio
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows" />
   <img src="https://img.shields.io/badge/Status-Stable-success?style=for-the-badge" />
