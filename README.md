@@ -20,17 +20,18 @@ Zencroo Studio is a robust, offline software solution designed for engineers, de
 
 ## 📋 Table of Contents
 1. [Latest Release](#latest-release)
-2. [Key Features](#key-features)
-3. [Interface Overview](#interface-overview)
-4. [Quick Start Workflow](#quick-start-workflow)
-5. [Connecting Your Device](#connecting-your-device)
-6. [Configuring DataStreams](#configuring-datastreams)
-7. [Building Your Dashboard](#building-your-dashboard)
-8. [Data Logging and Export](#data-logging-and-export)
-9. [Sending Commands](#sending-commands)
-10. [Sample Integration (Arduino)](#sample-integration-arduino)
-11. [Keyboard Shortcuts](#keyboard-shortcuts)
-12. [Release Notes](https://github.com/blurotech/zencroostudio/releases)
+2. [Downloads](#downloads)
+3. [Key Features](#key-features)
+4. [Interface Overview](#interface-overview)
+5. [Quick Start Workflow](#quick-start-workflow)
+6. [Connecting Your Device](#connecting-your-device)
+7. [Configuring DataStreams](#configuring-datastreams)
+8. [Building Your Dashboard](#building-your-dashboard)
+9. [Data Logging and Export](#data-logging-and-export)
+10. [Sending Commands](#sending-commands)
+11. [Sample Integration (Arduino)](#sample-integration-arduino)
+12. [Keyboard Shortcuts](#keyboard-shortcuts)
+13. [Release Notes](https://github.com/blurotech/zencroostudio/releases)
 
 ---
 
@@ -54,6 +55,25 @@ For a full list of technical changes, bug fixes, and improvements, please intera
     <img src="https://img.shields.io/badge/Installation_Guide-28a745?style=for-the-badge&logo=read-the-docs&logoColor=white" />
   </a>
 </p>
+
+---
+
+<a id="downloads"></a>
+## 📥 Downloads
+Get started with Zencroo Studio by downloading the version that best suits your workflow. Both versions are fully functional and offline-ready.
+
+<p align="left">
+  <a href="https://www.blurotech.in/products.html">
+    <img src="https://img.shields.io/badge/Download-Standard_Setup-blue?style=for-the-badge&logo=windows&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://www.blurotech.in/products.html">
+    <img src="https://img.shields.io/badge/Download-Portable_Version-orange?style=for-the-badge&logo=archive&logoColor=white" />
+  </a>
+</p>
+
+*   **Standard Setup**: Recommended for permanent installations. Includes automatic updates and full OS integration.
+*   **Portable Version**: Ideal for quick tests, running from USB drives, or environments where you lack administrative privileges.
 
 ---
 
