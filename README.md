@@ -12,7 +12,7 @@
   <a href="./INSTALLATION.md">
     <img src="https://img.shields.io/badge/Installation_Guide-28a745?style=for-the-badge&logo=read-the-docs&logoColor=white" />
   </a>
-  <a href="./SECURITY.md">
+  <a href="./SECURITY">
     <img src="https://img.shields.io/badge/Security_Policy-dc3545?style=for-the-badge&logo=shield&logoColor=white" />
   </a>
 </p>
@@ -287,7 +287,7 @@ void loop() {
 If you think you have found a vulnerability or other security-related bug in this project, please read our full security policy and report directly to our Security Team. **Do not open a public GitHub Issue for security reports.**
 
 <p align="left">
-  <a href="./SECURITY.md">
+  <a href="./SECURITY">
     <img src="https://img.shields.io/badge/Read-Security_Policy-dc3545?style=for-the-badge&logo=shield&logoColor=white" />
   </a>
 </p>
