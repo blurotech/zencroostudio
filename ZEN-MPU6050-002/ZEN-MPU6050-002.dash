@@ -1,0 +1,223 @@
+{
+    "name": "ZEN-MPU6050-002",
+    "widgets": [
+        {
+            "widgetId": "w_1774491669918_900",
+            "title": "XYZ",
+            "bindings": [
+                "DP1",
+                "DP2",
+                "DP3",
+                ""
+            ],
+            "width": 558,
+            "height": 220,
+            "type": "linegraph",
+            "left": 224,
+            "top": 0,
+            "maxPoints": 50
+        },
+        {
+            "widgetId": "w_1774491885386_929",
+            "title": "P",
+            "bindings": {
+                "value": "DP4"
+            },
+            "width": 220,
+            "height": 220,
+            "type": "gauge",
+            "customColor": null,
+            "left": 0,
+            "top": 0
+        },
+        {
+            "widgetId": "w_1774491997991_207",
+            "title": "R",
+            "bindings": {
+                "value": "DP5"
+            },
+            "width": 220,
+            "height": 220,
+            "type": "gauge",
+            "customColor": null,
+            "left": 786,
+            "top": 0
+        },
+        {
+            "widgetId": "w_1774492426476_619",
+            "title": "Pitch",
+            "bindings": {
+                "value": "DP4"
+            },
+            "width": 200,
+            "height": 100,
+            "type": "chardisplay",
+            "left": 0,
+            "top": 224
+        },
+        {
+            "widgetId": "w_1774492438702_756",
+            "title": "AX",
+            "bindings": {
+                "value": "DP1"
+            },
+            "width": 200,
+            "height": 100,
+            "type": "chardisplay",
+            "left": 204,
+            "top": 224
+        },
+        {
+            "widgetId": "w_1774492442996_104",
+            "title": "Roll",
+            "bindings": {
+                "value": "DP5"
+            },
+            "width": 192,
+            "height": 96,
+            "type": "chardisplay",
+            "left": 814,
+            "top": 226
+        },
+        {
+            "widgetId": "w_1774492452536_562",
+            "title": "AY",
+            "bindings": {
+                "value": "DP2"
+            },
+            "width": 200,
+            "height": 100,
+            "type": "chardisplay",
+            "left": 408,
+            "top": 224
+        },
+        {
+            "widgetId": "w_1774492456131_794",
+            "title": "AZ",
+            "bindings": {
+                "value": "DP3"
+            },
+            "width": 198,
+            "height": 99,
+            "type": "chardisplay",
+            "left": 612,
+            "top": 224
+        },
+        {
+            "widgetId": "w_1774493052952_513",
+            "title": "LABEL",
+            "bindings": [
+                "",
+                "DP2",
+                "",
+                ""
+            ],
+            "width": 340,
+            "height": 300,
+            "type": "oscgraph",
+            "left": 316,
+            "top": 328
+        },
+        {
+            "widgetId": "w_1774493057811_276",
+            "title": "LABEL",
+            "bindings": [
+                "DP3",
+                "",
+                "",
+                ""
+            ],
+            "width": 346,
+            "height": 300,
+            "type": "oscgraph",
+            "left": 660,
+            "top": 327
+        },
+        {
+            "widgetId": "w_1774493231278_521",
+            "title": "LABEL",
+            "bindings": [
+                "DP1",
+                "",
+                "",
+                ""
+            ],
+            "width": 312,
+            "height": 300,
+            "type": "oscgraph",
+            "left": 0,
+            "top": 328
+        }
+    ],
+    "datastreams": [
+        {
+            "id": "ds_1774491512604",
+            "name": "AX",
+            "alias": "",
+            "pin": "DP1",
+            "color": "#00ff1e",
+            "dataType": "Integer",
+            "units": "g",
+            "min": -10,
+            "max": 10,
+            "default": 0,
+            "history": true
+        },
+        {
+            "id": "ds_1774491540968",
+            "name": "AY",
+            "alias": "",
+            "pin": "DP2",
+            "color": "#e1ff00",
+            "dataType": "Integer",
+            "units": "g",
+            "min": -10,
+            "max": 10,
+            "default": 0,
+            "history": true
+        },
+        {
+            "id": "ds_1774491575863",
+            "name": "AX",
+            "alias": "",
+            "pin": "DP3",
+            "color": "#ff0000",
+            "dataType": "Integer",
+            "units": "g",
+            "min": -10,
+            "max": 10,
+            "default": 0,
+            "history": true
+        },
+        {
+            "id": "ds_1774491614311",
+            "name": "Pit",
+            "alias": "",
+            "pin": "DP4",
+            "color": "#00b3ff",
+            "dataType": "Integer",
+            "units": "",
+            "min": -100,
+            "max": 100,
+            "default": 0,
+            "history": true
+        },
+        {
+            "id": "ds_1774491662921",
+            "name": "Roll",
+            "alias": "",
+            "pin": "DP5",
+            "color": "#ff7b00",
+            "dataType": "Integer",
+            "units": "",
+            "min": -100,
+            "max": 100,
+            "default": 0,
+            "history": true
+        }
+    ],
+    "view": {
+        "showGrid": true,
+        "snap": true
+    }
+}
