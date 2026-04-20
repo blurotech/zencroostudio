@@ -1,7 +1,6 @@
 <p align="center">
   <img src="dist/ast/zencroo_studio_ban.png" alt="Zencroo Studio Logo" width="1080" />
 </p>
-# Zencroo Studio
 
 <p align="left">
   <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" />
@@ -12,7 +11,7 @@
   <a href="./INSTALLATION.md">
     <img src="https://img.shields.io/badge/Installation_Guide-28a745?style=for-the-badge&logo=read-the-docs&logoColor=white" />
   </a>
-  <a href="./SECURITY">
+  <a href="./SECURITY.md">
     <img src="https://img.shields.io/badge/Security_Policy-dc3545?style=for-the-badge&logo=shield&logoColor=white" />
   </a>
 </p>
