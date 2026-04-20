@@ -1,10 +1,6 @@
 # 💿 Installation Guide — Zencroo Studio
 
 <p align="center">
-  <img src="dist/ast/zencroo_studio_ban.png" alt="Zencroo Studio Banner" width="1080" />
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows" />
   <img src="https://img.shields.io/badge/Status-Stable-success?style=for-the-badge" />
@@ -52,25 +48,43 @@ To ensure you have the latest features and security updates, always download Zen
 
 ## 🚀 3. Installation Process
 
-Follow these steps to deploy the software on your Windows machine:
+Follow these steps to deploy the software on your Windows machine. We have included security "Trust" steps to ensure a smooth bypass of Windows Defender for this specialized hardware tool.
 
-### Step 1: Initialize Setup
-Locate the downloaded `.exe` file in your downloads folder and **Double-click** to launch the Zencroo Studio Setup Wizard.
+### Step 1: Security Bypass (SmartScreen)
+When you launch the installer, Windows may display a "Windows protected your PC" prompt.
+*   Click on **"More info"**.
+*   Then click **"Run anyway"**.
 
-### Step 2: Security Clearance
-> [!NOTE]
-> As Zencroo Studio is a specialized hardware tool, Windows SmartScreen may occasionally flag it.
-> 1. Click on **More info** in the blue popup.
-> 2. Select **Run anyway** to proceed with the trusted installation.
+<p align="center">
+  <img src="dist/ast/step-1.png" width="400" /> &nbsp; <img src="dist/ast/step-2.png" width="400" />
+</p>
 
-### Step 3: Deployment Configuration
-The wizard will guide you through the following:
-*   **User Agreement**: Review and accept the terms of use.
-*   **Install Directory**: Choose where the application files will reside (Default: `C:\Program Files\Zencroo Studio`).
-*   **Additional Tasks**: We recommend checking **"Create Desktop Shortcut"** for quick access.
+### Step 2: Administrative Trust (UAC)
+A User Account Control prompt will appear asking for permission to make changes.
+*   Click **"Yes"** to trust the publisher and proceed.
 
-### Step 4: Finalize
-Click **Install**. Once the extraction bar reaches 100%, click **Finish**. The application will launch automatically if the "Launch Zencroo Studio" box is checked.
+<p align="center">
+  <img src="dist/ast/step-3.png" width="600" />
+</p>
+
+### Step 3: Setup Wizard
+The Zencroo Studio Setup Wizard will initialize.
+*   Click **"Next >"** on the Welcome screen.
+*   Choose your preferred **Install Location** (default is recommended).
+*   Click **"Next >"** to begin extraction.
+
+<p align="center">
+  <img src="dist/ast/step-4.png" width="400" /> &nbsp; <img src="dist/ast/step-5.png" width="400" />
+</p>
+
+### Step 4: Finalizing Installation
+Once the progress bar is complete:
+*   Click **"Next >"**.
+*   Ensure **"Run Zencroo Studio"** is checked and click **"Finish"**.
+
+<p align="center">
+  <img src="dist/ast/step-6.png" width="400" /> &nbsp; <img src="dist/ast/step-7.png" width="400" />
+</p>
 
 ---
 
@@ -92,16 +106,19 @@ If your device does not appear in the COM Port list within the app, you may need
 
 ## 🏁 5. First Launch & Setup
 
-Once installed, follow these quick steps to start your first session:
+Once the application launches, you will see the main dashboard.
 
-1.  **Launch** Zencroo Studio via the Desktop shortcut.
-2.  **Plug in** your hardware device via USB.
-3.  In the **Left Sidebar**:
+<p align="center">
+  <img src="dist/ast/step-8.png" width="800" />
+</p>
+
+1.  **Plug in** your hardware device via USB.
+2.  In the **Left Sidebar**:
     *   Click **Refresh** (↻) to detect the new COM Port.
     *   Select your device's port (e.g., `COM3`).
     *   Set the **Baud Rate** (match your firmware code, e.g., `115200`).
-4.  Click **Connect** or press `Ctrl + K`.
-5.  Switch to the **Console View** (`Ctrl + 1`) to verify incoming data.
+3.  Click **Connect** or press `Ctrl + K`.
+4.  Switch to the **Console View** (`Ctrl + 1`) to verify incoming data.
 
 ---
 
