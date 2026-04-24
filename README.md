@@ -65,11 +65,11 @@ For a full list of technical changes, bug fixes, and improvements, please intera
 Get started with Zencroo Studio by downloading the version that best suits your workflow. Both versions are fully functional and offline-ready.
 
 <p align="left">
-  <a href="https://www.blurotech.in/products.html">
+  <a href="https://www.blurotech.in/zencroostudio.html">
     <img src="https://img.shields.io/badge/%E2%AC%87_Download-Standard_Setup_%7C_.exe-blue?style=for-the-badge&logo=windows&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://www.blurotech.in/products.html">
+  <a href="https://www.blurotech.in/zencroostudio.html">
     <img src="https://img.shields.io/badge/%E2%AC%87_Download-Portable_Version_%7C_.zip-orange?style=for-the-badge&logo=files&logoColor=white" />
   </a>
 </p>
