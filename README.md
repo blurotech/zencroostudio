@@ -3,7 +3,7 @@
 </p>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Version-1.0.2-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows" />
   <a href="https://github.com/blurotech/zencroostudio/releases">
     <img src="https://img.shields.io/badge/Release_Notes-0078D4?style=for-the-badge&logo=gitbook&logoColor=white" />
@@ -38,10 +38,10 @@ Zencroo Studio is a robust, offline software solution designed for engineers, de
 ---
 
 <a id="latest-release"></a>
-## 📦 Latest Release: V1.0.0 (Stable)
-We are excited to launch the first stable version of Zencroo Studio. This version brings a complete, high-performance ecosystem for hardware monitoring and dashboarding.
+## 📦 Latest Release: V1.0.2 (Stable)
+We are excited to launch the latest version of Zencroo Studio. This version brings a complete, high-performance ecosystem for hardware monitoring and dashboarding.
 
-**Key Highlights of V1.0.0:**
+**Key Highlights of V1.0.2:**
 *   **Performance**: Real-time, zero-lag data streaming for high-frequency sensors.
 *   **Visuals**: Premium dark-mode dashboard with advanced widget customization.
 *   **Reliability**: Enhanced stability for seamless hardware connection across all devices.
@@ -87,6 +87,7 @@ Get started with Zencroo Studio by downloading the version that best suits your 
 *   **Integrated Console**: Monitor raw serial data, pause, copy, and send custom payloads with various line endings and macro support.
 *   **Logging & Exporting**: Cache session data seamlessly and securely export as robust CSV files.
 *   **Live Status Metrics**: Real-time packet parsing, data rates, uptime, and error monitoring.
+*   **Advanced Alerting**: Configure Custom Low and High Value alert messages with a dedicated Warning Log Panel for persistent tracking of hardware warnings.
 
 ---
 
@@ -296,5 +297,5 @@ If you think you have found a vulnerability or other security-related bug in thi
 ---
 
 <p align="center">
-  <i>Zencroo Studio V 1.0.0 — Monitoring Evolved. Developed by Bluro Technology Solutions.</i>
+  <i>Zencroo Studio V 1.0.2 — Monitoring Evolved. Developed by Bluro Technology Solutions.</i>
 </p>

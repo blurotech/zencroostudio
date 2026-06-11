@@ -26,8 +26,8 @@ Only the following versions of Zencroo Studio are actively receiving security up
 
 | Version | Status | Support Level |
 | :--- | :---: | :--- |
-| **V1.0.0 (Stable)** | ✅ Supported | Full security updates & patches |
-| < V1.0.0 (Pre-release) | ❌ Unsupported | No security updates |
+| **V1.0.1 (Stable)** | ✅ Supported | Full security updates & patches |
+| < V1.0.1 (Pre-release) | ❌ Unsupported | No security updates |
 
 > [!IMPORTANT]
 > We strongly recommend always running the **latest stable release** to ensure you have all security patches applied.
@@ -113,5 +113,5 @@ The following are **not considered** security vulnerabilities:
 
 ---
 <p align="center">
-  <i>Zencroo Studio V 1.0.0 — Security Policy. Bluro Technology Solutions.</i>
+  <i>Zencroo Studio V 1.0.1 — Security Policy. Bluro Technology Solutions.</i>
 </p>

@@ -1,7 +1,7 @@
 # 💿 Installation Guide — Zencroo Studio
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Version-1.0.1-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows" />
   <img src="https://img.shields.io/badge/Status-Stable-success?style=for-the-badge" />
 </p>
@@ -41,8 +41,8 @@ To ensure you have the latest features and security updates, always download Zen
 
 1.  Navigate to the [**Official GitHub Releases**](https://github.com/blurotech/zencroostudio/releases) page.
 2.  Choose the distribution format that fits your needs:
-    *   📦 **Setup Installer** (`Zencroo_Studio_v1.0.0_setup.exe`): Recommended for most users. Provides automatic updates and Start Menu integration.
-    *   🚀 **Portable Version** (`Zencroo_Studio_v1.0.0_portable.zip`): No installation required. Ideal for running from USB drives or restricted environments.
+    *   📦 **Setup Installer** (`Zencroo_Studio_v1.0.1_setup.exe`): Recommended for most users. Provides automatic updates and Start Menu integration.
+    *   🚀 **Portable Version** (`Zencroo_Studio_v1.0.1_portable.zip`): No installation required. Ideal for running from USB drives or restricted environments.
 
 ---
 
