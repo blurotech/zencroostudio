@@ -42,10 +42,10 @@ Zencroo Studio is a robust, offline software solution designed for engineers, de
 We are excited to launch the latest performance and stability update of Zencroo Studio. This version focuses on under-the-hood optimization, rendering efficiency, and thread safety.
 
 **Key Highlights of V1.0.1:**
-*   **Zero-Lag Streaming**: Real-time console logs optimized to handle high Baud rates without app stuttering.
-*   **Scroll Throttling**: Implemented smooth auto-scroll using requestAnimationFrame (RAF) to eliminate UI lag.
-*   **Engine Stability**: Refined thread yielding and mutex lock handling to prevent CPU starvation and thread blocking.
-*   **Clean Buffering**: Improved line-based parsing to display complete, well-formed sensor data lines.
+*   **Zero-Lag Streaming**: Real-time console logs optimized to handle high Baud rates without any app slowdowns or stuttering.
+*   **Super Smooth Scrolling**: The console feed now scrolls dynamically and smoothly under heavy data load.
+*   **Stable Connection**: Optimized backend communication to prevent random app freezes and lockups.
+*   **Neat Data Buffering**: Displays complete, clean lines of data in the console instead of fragmented chunks.
 
 For a full list of technical changes, bug fixes, and improvements, please interact with our documentation below:
 
