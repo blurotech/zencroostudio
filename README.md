@@ -5,6 +5,9 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Version-1.0.1-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge&logo=windows" />
+  <a href="https://youtu.be/nXjyaCGr2qE?si=LYQnX4T3MmNDBSfR">
+    <img src="https://img.shields.io/badge/Video_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+  </a>
   <a href="https://github.com/blurotech/zencroostudio/releases">
     <img src="https://img.shields.io/badge/Release_Notes-0078D4?style=for-the-badge&logo=gitbook&logoColor=white" />
   </a>
@@ -23,17 +26,18 @@ Zencroo Studio is a robust, offline software solution designed for engineers, de
 ## 📋 Table of Contents
 1. [Latest Release](#latest-release)
 2. [Downloads](#downloads)
-3. [Key Features](#key-features)
-4. [Interface Overview](#interface-overview)
-5. [Quick Start Workflow](#quick-start-workflow)
-6. [Connecting Your Device](#connecting-your-device)
-7. [Configuring DataStreams](#configuring-datastreams)
-8. [Building Your Dashboard](#building-your-dashboard)
-9. [Data Logging and Export](#data-logging-and-export)
-10. [Sending Commands](#sending-commands)
-11. [Sample Integration (Arduino)](#sample-integration-arduino)
-12. [Keyboard Shortcuts](#keyboard-shortcuts)
-13. [Release Notes](https://github.com/blurotech/zencroostudio/releases)
+3. [Video Demonstration](#video-demonstration)
+4. [Key Features](#key-features)
+5. [Interface Overview](#interface-overview)
+6. [Quick Start Workflow](#quick-start-workflow)
+7. [Connecting Your Device](#connecting-your-device)
+8. [Configuring DataStreams](#configuring-datastreams)
+9. [Building Your Dashboard](#building-your-dashboard)
+10. [Data Logging and Export](#data-logging-and-export)
+11. [Sending Commands](#sending-commands)
+12. [Sample Integration (Arduino)](#sample-integration-arduino)
+13. [Keyboard Shortcuts](#keyboard-shortcuts)
+14. [Release Notes](https://github.com/blurotech/zencroostudio/releases)
 
 ---
 
@@ -76,6 +80,14 @@ Get started with Zencroo Studio by downloading the version that best suits your 
 
 *   **Standard Setup**: Recommended for permanent installations. Includes automatic updates and full OS integration.
 *   **Portable Version**: Ideal for quick tests, running from USB drives, or environments where you lack administrative privileges.
+
+---
+
+<a id="video-demonstration"></a>
+## 🎥 Video Demonstration
+To see Zencroo Studio in action and learn how to get started in under 5 minutes, watch our demo video:
+
+[![Zencroo Studio Video Demo](https://img.shields.io/badge/YouTube-Watch_Video_Demo-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/nXjyaCGr2qE?si=LYQnX4T3MmNDBSfR)
 
 ---
 
