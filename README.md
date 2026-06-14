@@ -142,7 +142,9 @@ DataStreams tell Zencroo Studio how to interpret the raw serial data coming from
 
 **Data Preparation on your Device:**
 Your microcontroller should group sensor variables and print them on the exact same line, separated by a delimiter (like a comma). For example:
-> `Serial.print(temperature); Serial.print(","); Serial.println(humidity);`
+> `Serial.print(temperature); 
+   Serial.print(",");
+   Serial.println(humidity);`
 This results in two "Data Points" appearing per single line: `24.50,60.20`
 
 **Mapping in Zencroo Studio:**
